@@ -1,0 +1,61 @@
+
+#Datafile DVLS
+
+#Info
+name : Complete dataset
+desc : Dataset used to develop DVLS
+
+#Grid
+size   : 10
+status : 0
+
+#Misc_line
+desc : Evolution of her grades between 2005 - 2014
+x_unit : a
+x_name : Year
+y_unit : Grade
+y_name : Her average grade
+data_names : Graph1__Graph3__lol
+
+#Data_line
+2005 : 7.5__9__7
+2006 : 8.0__9__8
+2007 : 8.2__9__7
+2008 : 8.2__9__8
+2009 : 8.0__9__7
+2010 : 7.5__9__8
+2011 : 8.5__9__7
+2012 : 8.6__9__8
+2013 : 8.8__9__7
+2014 : 9.2__9__8
+
+#Misc_histo
+desc : Histogram.
+color : #008000
+x_name : Grade
+y_name : Number of students
+show_frequencies: 1
+
+#Data_histo
+1 : 50
+2 : 40
+3 : 120
+4 : 45
+5 : 10
+
+#Misc_pie
+desc : The distribution of grades between the students in a some course
+show_percentage_in_graph : 1
+show_explanation_panel : 1
+show_data_values: 1
+data_key_name: Grade
+data_value_name: Number of students
+
+#Data_pie
+1 : 50 : #337ab7
+2 : 40 : #99ff33
+3 : 120 : #980000
+4 : 45 : #f4e9c1
+5 : 10 : #56ff00
+
+#EOF
