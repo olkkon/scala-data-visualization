@@ -1,0 +1,7 @@
+#Datafile DVLS
+
+#Misc_histo
+desc : Histogram. Second graph type of Dataset 3. Only visible when set so.
+color : #008000
+x_name : Grade
+y_name : Number of students

@@ -1,0 +1,31 @@
+#Datafile DVLS
+
+// Just some comment lines here
+// For testing purposes, solely
+
+#Info
+name : Datafile test 2
+desc :   This is a test dataset, which was read from file datafile_test2.df
+
+#Misc_line
+desc :
+x_unit :   // If something is left blank, it can be set later during the program. 
+x_name :  Akseli // The same goes if these are missing from this file
+y_unit :
+y_name :
+
+#Data_line
+2010 : 0.5__1
+2011 : 0.9__2
+2012 : 0.7__3
+2013 : 0.7__4
+2014 : 0.1__5
+
+#Data_pie
+1 : 50  : #337ab7
+2 : 40  : #99ff33
+3 : 120 : #980000
+4 : 45  : #f4e9c1
+5 : 10  : #56ff00
+
+#EOF

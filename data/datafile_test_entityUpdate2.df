@@ -1,0 +1,18 @@
+#Datafile DVLS
+
+#Misc_line
+desc :
+x_unit : // If something is left blank, it can be set later during the program. 
+x_name : // The same goes if these are missing from this file
+y_unit :
+y_name :
+data_names: Test1__Test2
+
+#Data_line
+2010 : 0.5__1
+2011 : 0.9__2
+2012 : 0.7__3
+2013 : 0.7__4
+2014 : 0.1__5
+
+#EOF
